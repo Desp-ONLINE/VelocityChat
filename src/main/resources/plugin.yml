@@ -2,7 +2,7 @@ name: VelocityChat
 version: '1.0.0'
 main: com.binggre.velocitychat.VelocityChat
 api-version: '1.20'
-depend: ['BinggreAPI', 'VelocitySocketClient']
+depend: ['VelocitySocketClient', 'MongoLibraryPlugin']
 commands:
   채팅포맷:
     permission: velocitychat.admin
